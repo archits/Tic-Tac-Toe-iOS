@@ -13,6 +13,9 @@
 		95A6C9EE1AF415D500EAD2A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C9ED1AF415D500EAD2A6 /* Images.xcassets */; };
 		95A6C9F11AF415D500EAD2A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95A6C9EF1AF415D500EAD2A6 /* LaunchScreen.xib */; };
 		95A6C9FD1AF415D500EAD2A6 /* Tic_Tac_ToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6C9FC1AF415D500EAD2A6 /* Tic_Tac_ToeTests.swift */; };
+		95D29FAD1AF4C02000730248 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 95D29FAA1AF4C02000730248 /* cross.png */; };
+		95D29FAE1AF4C02000730248 /* emptyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 95D29FAB1AF4C02000730248 /* emptyboard.png */; };
+		95D29FAF1AF4C02000730248 /* not.png in Resources */ = {isa = PBXBuildFile; fileRef = 95D29FAC1AF4C02000730248 /* not.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		95A6C9F61AF415D500EAD2A6 /* Tic Tac ToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tic Tac ToeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95A6C9FB1AF415D500EAD2A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95A6C9FC1AF415D500EAD2A6 /* Tic_Tac_ToeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeTests.swift; sourceTree = "<group>"; };
+		95D29FAA1AF4C02000730248 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		95D29FAB1AF4C02000730248 /* emptyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emptyboard.png; sourceTree = "<group>"; };
+		95D29FAC1AF4C02000730248 /* not.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = not.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 				95A6C9E61AF415D500EAD2A6 /* AppDelegate.swift */,
 				95A6C9E81AF415D500EAD2A6 /* ViewController.swift */,
 				95A6C9EA1AF415D500EAD2A6 /* Main.storyboard */,
+				95D29FAA1AF4C02000730248 /* cross.png */,
+				95D29FAB1AF4C02000730248 /* emptyboard.png */,
+				95D29FAC1AF4C02000730248 /* not.png */,
 				95A6C9ED1AF415D500EAD2A6 /* Images.xcassets */,
 				95A6C9EF1AF415D500EAD2A6 /* LaunchScreen.xib */,
 				95A6C9E41AF415D500EAD2A6 /* Supporting Files */,
@@ -194,6 +203,9 @@
 			files = (
 				95A6C9EC1AF415D500EAD2A6 /* Main.storyboard in Resources */,
 				95A6C9F11AF415D500EAD2A6 /* LaunchScreen.xib in Resources */,
+				95D29FAD1AF4C02000730248 /* cross.png in Resources */,
+				95D29FAF1AF4C02000730248 /* not.png in Resources */,
+				95D29FAE1AF4C02000730248 /* emptyboard.png in Resources */,
 				95A6C9EE1AF415D500EAD2A6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +417,7 @@
 				95A6CA021AF415D500EAD2A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95A6CA031AF415D500EAD2A6 /* Build configuration list for PBXNativeTarget "Tic Tac ToeTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				95A6CA051AF415D500EAD2A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
